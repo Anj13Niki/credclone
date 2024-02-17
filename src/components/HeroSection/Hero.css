@@ -1,0 +1,45 @@
+.hero-section-wrapper{
+    position: relative;
+}
+.hero-section{
+    min-height: 86vh;
+    text-align: center;
+}
+.hero-heading{
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 120px;
+}
+.hero-subheading{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 49px 45px;
+    line-height: 38px;
+}
+@media all and (max-width:1270px) {
+    .hero-heading{
+        font-size: 82px;
+        line-height: 90px;
+    }
+    .hero-subheading{
+        font-size: 25px;
+    }
+}
+@media all and (max-width:454px) {
+    .hero-section{
+        align-items: flex-start;
+        text-align: left;
+        min-height: 70vh;
+    }
+    .hero-heading{
+        font-size: 55px;
+        line-height:57px;
+        width: 270px;
+        margin-top: 60px;
+    }
+    .hero-subheading{
+        font-size: 16px;
+        line-height: 27px;
+        margin-left: 0px;
+    }
+}

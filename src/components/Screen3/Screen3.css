@@ -1,0 +1,30 @@
+.security{
+    background: var(--screen-bg);
+    background: url("https://web-images.credcdn.in/_next/assets/images/home-page/security-bg.jpg");
+}
+.security-subheading{
+    font-size: 32px;
+    line-height: 28px;
+    font-weight: 700;
+    text-align: left;
+    max-width: 630px;
+    margin-bottom: 6px;
+}
+@media all and (max-width:1270px){
+    .security{
+        background-position: center bottom;
+    }
+}
+
+@media all and (max-width:660px){
+    .security{
+        background-image: url("https://web-images.credcdn.in/_next/assets/images/home-page/security-bg-mobile.jpg");
+        min-height: 1150px;
+        background-position: right center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .security-subheading{
+        margin-bottom: 500px;
+    }
+}
